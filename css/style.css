@@ -168,6 +168,10 @@ start the about main section
     width:50%;
     float: right;
 }
+.row-bottom {
+    width: 100%;
+    float: left;
+}
 .about img{
     width: 360px;
     height: auto;
@@ -175,16 +179,17 @@ start the about main section
     border-radius: 15px;
 }
 
-.about-me{
+.about-me {
+    
     background-color: rgb(97, 179, 182);
     padding: 5px;
     border-radius: 5px;
-    text-align: left;
+    text-align: center;
     font-family: 'Lato',sans-serif;
     font-size: 14px;
-    /* text-align: center; */
-    margin-top: 10%;
-    margin-right: 10%;
+
+    margin: 8%;
+
 }
 /*resume section*/
 .resume img{
@@ -407,7 +412,7 @@ ul.listitem {
     } /*cant figure out how to center nav bar when this is gone*/
     .header ul li{
         height: 20px;
-        line-height: 29px;
+        line-height: 45px;
         transform: translate(-50%, -50%);
         margin: 4px 8px;
     }
@@ -459,7 +464,7 @@ ul.listitem {
         border: 5px solid black;
     }
     .social {
-        margin: 20px;
+        margin: 18px;
         float: inline-start;
     }
     .contact-button{
@@ -506,7 +511,7 @@ ul.listitem {
     .nav {
         /* position: fixed; */
         float: left;
-        transform:translateX(50%);
+        transform:translateX(22%);
         /* margin-left: 13%; */
     }
     
