@@ -1,39 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="stf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
+    <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
+    <title>elaina tiller portfolio</title>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="include.js"></script>
+    <script src = "navbar.js"></script>
+    <!-- <script src="include.js"></script> -->
 
+</head>
+<body>
+    <main>
+    <div class="header">
+        <div class="container">
+            <span class="name">Elaina</span>
+            <div class="nav">
+                <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">about</a></li>
+                    <li ><a href="resume.html">resume</a></li>
+                    <li ><a href="work.html">work</a></li>
+                    <li ><a href="photography.html">photography</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
     <div class="work-section" id="work">
-        <span class="section-title">work</span><br> 
+        <h1 class="section-title">work</h1>
             <div class="work-grid">
                     <div class="work-img">
-                        <img src="18Images/JRP.JPG" alt="work">
+                        <img src="18Images/JRP.JPG" alt="Joe Rogan page">
                         <div class="text">
                             <p>Joe Rogan Podcast Analysis</p>
                             <p>SQL, Python, MatLab</p>
                             <div class="butn">
-                                <a href="https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.0l2j69i57j0l2j69i60l3.1959j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><button class="visit">Visit</button></a> 
-                                <a href="https://github.com/elainatiller/elainatiller.github.io" target="_blank"><button class="code">code</button></a>
+                                <a href="https://elainatiller.github.io/" target="_blank"><button class="visit">Visit</button></a> 
+                                <!-- <a href="https://github.com/elainatiller/elainatiller.github.io" target="_blank"><button class="code">code</button></a> -->
                             </div>
                         </div>
                         <div class="overlay"></div>
                     </div>
                     <div class="work-img">
-                        <img src="18Images/JRP.JPG" alt="work">
+                        <img src="images/website.jpg" alt="photography page">
                         <div class="text">
-                            <p>Todo</p>
-                            <p>todo</p>
+                            <p>Photography Website</p>
+                            <p>From 2015-2021</p>
                             <div class="btn">
-                                <a href="https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.0l2j69i57j0l2j69i60l3.1959j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><button class="visit">Visit</button></a> 
-                                <a href="https://github.com" target="_blank"><button class="code">code</button></a>
+                                <a href="https://www.elainatillercaptures.com/" target="_blank"><button class="visit">Visit</button></a> 
                             </div>
                         </div>
                         <div class="overlay"></div>
                     </div>
                     <div class="work-img">
-                        <img src="18Images/JRP.JPG" alt="work">
+                        <img src="images/serendipity.jpg" alt="serendipity page">
                         <div class="text">
-                            <p>Todo</p>
-                            <p>todo</p>
+                            <p>Coming Soon</p>
+                            <p>I have to get persmission from client</p>
                             <div class="btn">
-                                <a href="https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.0l2j69i57j0l2j69i60l3.1959j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><button class="visit">Visit</button></a> 
-                                <a href="https://github.com" target="_blank"><button class="code">code</button></a>
+                                <a href="https://serendipity-books.com/shopping/" target="_blank"><button class="visit">Visit</button></a> 
                             </div>
                         </div>
                         <div class="overlay"></div>
@@ -42,5 +73,34 @@
           </div>
     </div>
 
+
     
- 
+    <div class="contact-section" id="contact">
+        <span class="section-title">Contact</span><br>  
+        <div class="contact-grid">
+            <form action="" class="contact-form" method="GET">
+              
+                <label for="Name" class= "hiddenlabel"> Name </label>
+                <input id = "Name" type="text"  placeholder="Name" class="contact__input" required> 
+                <label for="Email" class= "hiddenlabel"> Email  </label>
+                <input id = "Email" type="email" placeholder="Email" class="contact__input" required>
+                <label for="Message" class= "hiddenlabel"> Message </label>
+                <textarea id = "Message" name="" placeholder="Message" id="" cols="0" rows="10" class="contact__input"></textarea> 
+               
+                <div class ="contact" >
+                    <input type="submit" value="Join" class ="contact-button">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>Elaina Tiller</p>
+            <h2>@2021 portfolio</h2>
+        </div>
+    </div>
+</body>
+</main>
+</html>

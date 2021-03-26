@@ -10,5 +10,5 @@ $(function() {
         //     //for making parent of submenu active
         //    $(this).closest("li").parent().parent().addClass("active");
         }
-    });
-}); 
+        });
+    }); 
