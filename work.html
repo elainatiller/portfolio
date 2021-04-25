@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
     <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
     <title>elaina tiller portfolio</title>
-    <script src="jquery.min.js"></script>
-    <script type="text/javascript" src="include.js"></script>
-    <script src = "navbar.js"></script>
-    <!-- <script src="include.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+    <script src = "js/navbar.js"></script> 
+
 
 </head>
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <main>
     <div class="header">
         <div class="container">
@@ -32,49 +32,51 @@
             </div>
         </div>
     </div>
-    
-    <div class="work-section" id="work">
-        <h1 class="section-title">work</h1>
-            <div class="work-grid">
-                    <div class="work-img">
-                        <img src="18Images/JRP.JPG" alt="Joe Rogan page">
-                        <div class="text">
-                            <p>Joe Rogan Podcast Analysis</p>
-                            <p>SQL, Python, MatLab</p>
-                            <div class="butn">
-                                <a href="https://elainatiller.github.io/" target="_blank"><button class="visit">Visit</button></a> 
-                                <!-- <a href="https://github.com/elainatiller/elainatiller.github.io" target="_blank"><button class="code">code</button></a> -->
+    <div id="main">
+        <div class="work-section" id="work">
+            <h1 class="section-title">work</h1>
+                <div class="work-grid">
+                        <div class="work-img">
+                            <img src="18Images/JRP.JPG" alt="Joe Rogan page">
+                            <div class="text">
+                                <p>Joe Rogan Podcast Analysis</p>
+                                <p>SQL, Python, MatLab</p>
+                                <div class="butn">
+                                    <a href="https://elainatiller.github.io/" target="_blank"><button class="visit">Visit</button></a> 
+                                    <!-- <a href="https://github.com/elainatiller/elainatiller.github.io" target="_blank"><button class="code">code</button></a> -->
+                                </div>
                             </div>
+                            <div class="overlay"></div>
                         </div>
-                        <div class="overlay"></div>
+                        <div class="work-img">
+                            <img src="images/website.jpg" alt="photography page">
+                            <div class="text">
+                                <p>Photography Website</p>
+                                <p>From 2015-2021</p>
+                                <div class="btn">
+                                    <a href="https://www.elainatillercaptures.com/" target="_blank"><button class="visit">Visit</button></a> 
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="work-img">
+                            <img src="images/serendipity.jpg" alt="serendipity page">
+                            <div class="text">
+                                <p>Coming Soon</p>
+                                <p>I have to get persmission from client</p>
+                                <div class="btn">
+                                    <a href="https://serendipity-books.com/shopping/" target="_blank"><button class="visit">Visit</button></a> 
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>                   
                     </div>
-                    <div class="work-img">
-                        <img src="images/website.jpg" alt="photography page">
-                        <div class="text">
-                            <p>Photography Website</p>
-                            <p>From 2015-2021</p>
-                            <div class="btn">
-                                <a href="https://www.elainatillercaptures.com/" target="_blank"><button class="visit">Visit</button></a> 
-                            </div>
-                        </div>
-                        <div class="overlay"></div>
-                    </div>
-                    <div class="work-img">
-                        <img src="images/serendipity.jpg" alt="serendipity page">
-                        <div class="text">
-                            <p>Coming Soon</p>
-                            <p>I have to get persmission from client</p>
-                            <div class="btn">
-                                <a href="https://serendipity-books.com/shopping/" target="_blank"><button class="visit">Visit</button></a> 
-                            </div>
-                        </div>
-                        <div class="overlay"></div>
-                    </div>                   
-                </div>
-          </div>
+              </div>
+        </div>
     </div>
-
-
+    
+<form action="https://formspree.io/f/xleadkwv" method="POST">
+    <fieldset>
     
     <div class="contact-section" id="contact"  id="main" tabindex="-1">
         <span class="section-title">Contact</span><br>  
@@ -82,20 +84,21 @@
             <form action="" class="contact-form" method="GET">
               
                 <label for="Name" class= "hiddenlabel"> Name </label>
-                <input id = "Name" type="text"  placeholder="Name" class="contact__input" required> 
+                <input id = "Name" type="text" name="person_name" placeholder="Name" class="contact__input" required> 
                 <label for="Email" class= "hiddenlabel"> Email  </label>
-                <input id = "Email" type="email" placeholder="Email" class="contact__input" required>
+                <input id = "Email" type="email" name = "email" placeholder="Email" class="contact__input" required>
                 <label for="Message" class= "hiddenlabel"> Message </label>
-                <textarea id = "Message" name="" placeholder="Message" id="" cols="0" rows="10" class="contact__input"></textarea> 
+                <textarea id = "Message" name="" placeholder="Message" name = "Message " cols="0" rows="10" class="contact__input"></textarea> 
                
                 <div class ="contact" >
-                    <input type="submit" value="Join" class ="contact-button">
+                    <input type="submit" value="Send" class ="contact-button">
                 </div>
                 
             </form>
         </div>
     </div>
-
+</fieldset>
+</form>
     <div class="footer">
         <div class="container">
             <p>Elaina Tiller</p>

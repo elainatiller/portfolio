@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,14 +10,14 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
     <!-- <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> -->
     <title>elaina tiller portfolio</title>
-    <script src="jquery.min.js"></script>
-    <script type="text/javascript" src="include.js"></script>
-    <script src = "navbar.js"></script>
-    <!-- <script src="include.js"></script> -->
-
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/include.js"></script>
+    <script src = "js/navbar.js"></script> 
+    <script src = "js/animation.js"></script> 
 </head>
+
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <main>
     <div class="header">
         <div class="container">
@@ -33,15 +34,18 @@
         </div>
     </div>
 
-    <div class="main-banner" id="home" id = "main">
+    <div class="main-banner" id="home">
         <div class="container">
             <article>
                 <img src="images/me.JPG" class="me" alt="picture of me">
             </article>
             <article>
-                <div class="intro">
-                        <h1>Hi,<br> I am Elaina Tiller</h1>
-                        <p><br>a computer science student <br> at the University of Michigan</p>
+                <div class="intro" >
+                        <div id ="main">
+            
+                            <h1>Hi,<br> I am Elaina Tiller</h1>
+                            <p><br>a computer science student <br> at the University of Michigan</p>
+                        </div>
                     <a href="work.html"><button class="contact-button">contact</button></a>
                     <div class="social" >
                         <a href="https://www.linkedin.com/in/elaina-tiller-637421186/" target="_blank"><img src="images/linkedin.png" alt="linkedin img"></a>
@@ -49,15 +53,9 @@
                     </div>
                 </div>
             </article> 
-        </div> 
-    </div>
-<!-- 
-    <div id="includeAbout"></div>
-    <div id="includeResume"></div>
-    <div id="includeWork"></div>
-    <div id="includeContact"></div>
-    <div id="includePhotography"></div> -->
-
+        </div>
+    </div> 
+   
     <div class="footer">
         <div class="container">
             <p>Elaina Tiller</p>
